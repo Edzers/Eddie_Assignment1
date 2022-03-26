@@ -1,0 +1,160 @@
+body {
+    background-color: #E5D0CC 
+}
+
+h1, h2  {
+    background-color: #E5D0CC;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Monteserrat';
+}
+
+a { 
+    text-decoration: none!important;
+}
+
+.nav-active {
+    display: flex;
+    flex: 1;
+    background-color: #BFACB5;
+    height: 100vh;
+    max-width: 20vw;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.note-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    flex: 1;
+}
+
+#vertical {
+    flex: 0 0 20vw;
+    flex-direction: row;
+    min-height: 100vh;
+
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    height: 5vh;
+}
+
+#container {
+    display: flex;
+    flex: 1;
+}
+
+#container > nav, 
+#container > aside {
+    flex: 0 0 20vw;
+    align-content: flex-start;
+}
+
+#create-note {
+    margin-top: 100px
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar li{
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.navbar a {
+    color: #444554;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.abutton{
+    padding: 0;
+    border: none;
+    outline: none;
+    background: #E5D0CC;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+#button{
+    font-weight: 1000;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_text,
+.button_icon{       
+    color: #7F7B82;
+    background-color: #E5D0CC;
+    padding-left: 10px;
+}
+
+.button_text{
+    font-size: 19px;
+}
+.button_icon{
+    font-size: 20px;
+    font-weight: 1000px;
+}
+.sideButton{
+    background: #BFACB5;
+    font-size: 25px;
+    cursor:pointer;
+}
+
+.sidebar-container{
+    display: flex;
+    flex-flow: column;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    color: #444554;
+    text-align: center;
+    justify-content: center;
+
+    flex: 4;
+    align-items: flex-end;
+}
+
+article {
+    height: 90vh;
+}
+
+#notebox{
+    display: flex;
+    background: #BFACB5;    
+    flex-shrink: 3;
+    height: 5vh;
+}
+
+
+.dir-column {
+    flex-direction: column;
+}
